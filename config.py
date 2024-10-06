@@ -1,4 +1,4 @@
-openai_api_key = "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"
+openai_api_key = "OPENAI_API_KEY"
 
 data_dir = "./data/uploaded_files"
 
