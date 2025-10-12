@@ -3,8 +3,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter # Importing t
 from langchain.schema import Document # Importing Document schema from Langchain
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-# from langchain_community.embeddings import OpenAIEmbeddings # Importing OpenAI embeddings from Langchain
-# from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv # Importing dotenv to get API key from .env file
 import os
 import logging

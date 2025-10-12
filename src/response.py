@@ -1,6 +1,4 @@
-# from langchain_community.chat_models import ChatOpenAI # Import OpenAI LLM
 from langchain_openai import ChatOpenAI,OpenAIEmbeddings
-# from langchain_community.embeddings import OpenAIEmbeddings # Importing OpenAI embeddings from Langchain
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 
