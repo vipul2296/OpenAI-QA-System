@@ -3,11 +3,12 @@ import requests
 import logging
 from dotenv import load_dotenv # Importing dotenv to get API key from .env file
 import os
-from config import DATA_PATH
 from src.processing import generate_data_store
 from src.response import query_rag
 from streamlit_chat import message
 
+DATA_PATH = "./data/uploaded_files"
+os.makedirs(DATA_PATH,exist_ok=True)
 # Load environment variables from a .env file
 load_dotenv()
 ALLOWED_EXTENSIONS = ['pdf', "docx", "txt"]

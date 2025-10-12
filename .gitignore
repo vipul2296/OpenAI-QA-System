@@ -1,8 +1,10 @@
 # created by virtualenv automatically
 /env
+/data
 /chroma
 *.json
 *.pdf
 old_app.py
+/notebooks
 .env
 
