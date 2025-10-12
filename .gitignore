@@ -1,4 +1,8 @@
 # created by virtualenv automatically
 /env
+/chroma
 *.json
 *.pdf
+old_app.py
+.env
+
